@@ -1,0 +1,67 @@
+.App {
+  /* text-align: center; */
+  background-color: #F3F3F3;
+  padding-bottom:30%;
+}
+
+.HeroBanner{
+  display: flex;
+  margin-top: 30px;
+}
+
+#Aside{
+  width: 20%;
+  padding-left: 10%;
+}
+
+#User{
+  width:45%;
+  background-color: white;
+}
+
+@media screen and (max-width: 768px) and (min-width:630px) {
+  #User{
+    width: 60%;
+  }
+  #Aside{
+    width: 20%;
+    padding-left:0%;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 630px) and (min-width:0px) {
+  #User{
+    width: 60%;
+  }
+}
+@media screen and (max-width: 630px) and (min-width:500px) {
+  #Aside{
+    width: 30%;
+    padding-left:0%;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 500px) and (min-width:440px) {
+  #Aside{
+    width: 30%;
+    padding-left:50px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width:340px) {
+  #Aside{
+    width: 30%;
+    padding-left:10px;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 340px) and (min-width:0px) {
+  #Aside{
+    width: 30%;
+    padding-left:10px;
+    padding-right: 0px;
+  }
+}
+

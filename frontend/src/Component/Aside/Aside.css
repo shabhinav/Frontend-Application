@@ -1,0 +1,16 @@
+.asidelinks li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.asidelinks img{
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 500px) and (min-width:0px) {
+    ul{
+        padding-left:0px;
+    }
+}

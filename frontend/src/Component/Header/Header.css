@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    background-image:linear-gradient(to right,#DBE05F,#2A7763) ;
+}
+
+/* .navlinks{
+    display: flex;
+    text-align: right;
+    justify-content: center;
+} */
+
+.navlink{
+    text-align: right !important;
+    /* align-items: ; */ 
+    justify-content: center;
+}
+
+@media screen and (max-width:320px) and (min-width:0px) {
+img{
+    margin-right: 3px !important;
+}
+
+}
